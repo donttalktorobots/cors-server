@@ -6,8 +6,8 @@ const corsServer = corsAnywhere.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:5000',
-      'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com'
+      'https://us13.campaign-archive.com/feed?u=a4da16d11b719a3278222750c&id=f39221935e',
+      'https://theroutingcompany.com'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
